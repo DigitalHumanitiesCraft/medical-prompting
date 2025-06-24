@@ -13,13 +13,25 @@ LLMs funktionieren am besten, wenn Sie sie durch logische Schritte führen, anst
 
 **✅ Machen Sie stattdessen das:**
 
-1. **Fundament legen:** "Ich habe einen Bandscheibenvorfall bei C5-C6. Welche spezifischen Muskelgruppen sind von diesem Zustand am meisten betroffen?"
+1. **Fundament legen:**
+   ```
+   Ich habe einen Bandscheibenvorfall bei C5-C6. Welche spezifischen Muskelgruppen sind von diesem Zustand am meisten betroffen?
+   ```
 
-2. **Kontext aufbauen:** "Für die Muskelgruppen, die Sie erwähnt haben, welche Arten von Übungen werden allgemein für Kräftigung und Flexibilität empfohlen?"
+2. **Kontext aufbauen:**
+   ```
+   Für die Muskelgruppen, die du erwähnt hast, welche Arten von Übungen werden allgemein für Kräftigung und Flexibilität empfohlen?
+   ```
 
-3. **Spezifisch werden:** "Basierend auf diesen Informationen, erstellen Sie ein anfängerfreundliches Übungsprogramm für jemanden mit einem C5-C6 Bandscheibenvorfall."
+3. **Spezifisch werden:**
+   ```
+   Basierend auf diesen Informationen, erstelle ein anfängerfreundliches Übungsprogramm für jemanden mit einem C5-C6 Bandscheibenvorfall.
+   ```
 
-4. **Validierung erzwingen (LLM-Poking):** "Überprüfen Sie diesen Übungsplan sorgfältig. Ist das wirklich angemessen und sicher? Listen Sie mögliche Bedenken oder nötige Anpassungen auf und erklären Sie Ihre Begründung."
+4. **Validierung erzwingen (LLM-Poking):**
+   ```
+   Überprüfe diesen Übungsplan nochmal kritisch. Ist das wirklich angemessen und sicher? Liste mögliche Bedenken oder nötige Anpassungen auf und erkläre deine Begründung.
+   ```
 
 ### Warum das funktioniert
 - Jeder Schritt baut logischen Kontext auf
@@ -35,21 +47,32 @@ LLMs hassen es, "Ich weiß es nicht" zu sagen und liefern oft selbstsicher kling
 
 **✅ Besserer Ansatz:**
 
-1. **Mit eingebauter Unsicherheit fragen:** "Was sagt die aktuelle Forschung über die Stabilität von Antioxidantien in aufgebrühtem grünem Tee im Zeitverlauf? Seien Sie spezifisch darüber, was Sie wissen vs. was Sie unsicher sind."
+1. **Mit eingebauter Unsicherheit fragen:**
+   ```
+   Was sagt die aktuelle Forschung über die Stabilität von Antioxidantien in aufgebrühtem grünem Tee im Zeitverlauf? Sei spezifisch darüber, was du weißt vs. was unsicher ist.
+   ```
 
-2. **Ehrlichkeit erzwingen:** "Seien Sie absolut ehrlich bei Fakten und Zahlen, die Sie nicht genau wissen. Nutzen Sie Webrecherche für Behauptungen, bei denen Sie unsicher sind, und wenn Sie keine 100% bewiesenen Fakten finden können, sagen Sie das explizit."
+2. **Ehrlichkeit erzwingen:**
+   ```
+   Sei absolut ehrlich bei Fakten und Zahlen, die du nicht genau weißt. Nutze Webrecherche für Behauptungen, bei denen du unsicher bist, und wenn du keine 100% bewiesenen Fakten findest, sag das explizit.
+   ```
 
-3. **Quellen validieren:** "Welche spezifischen Studien oder Quellen unterstützen diese Zeiträume? Wenn Sie Schätzungen machen, kennzeichnen Sie sie klar als solche."
+3. **Quellen validieren:**
+   ```
+   Welche spezifischen Studien oder Quellen unterstützen diese Zeiträume? Wenn du Schätzungen machst, kennzeichne sie klar als solche.
+   ```
 
-## Schnellreferenz: Validierungsphrasen, die funktionieren
+## Schnellreferenz: Validierungsphrasen für Prompts
 
-Verwenden Sie diese "LLM-Poking" Prompts, um bessere Antworten zu erzwingen:
+Verwenden Sie diese "LLM-Poking" Formulierungen in Ihren Prompts:
 
-- "Ist das wirklich genau? Überprüfen Sie Ihre Begründung nochmal."
-- "Bei was sind Sie in dieser Antwort unsicher?"
-- "Listen Sie potenzielle Risiken oder Kontraindikationen auf, die ich wissen sollte."
-- "Seien Sie völlig ehrlich darüber, was die aktuelle Forschung unterstützt vs. nicht unterstützt."
-- "Suchen Sie nach aktuellen Studien, um diese Behauptungen zu verifizieren."
+- `"Ist das wirklich genau? Überprüfe deine Begründung nochmal."`
+- `"Bei was bist du in dieser Antwort unsicher?"`
+- `"Liste potenzielle Risiken oder Kontraindikationen auf, die ich wissen sollte."`
+- `"Sei völlig ehrlich darüber, was die aktuelle Forschung unterstützt vs. nicht unterstützt."`
+- `"Suche nach aktuellen Studien, um diese Behauptungen zu verifizieren."`
+- `"Wenn du dir nicht sicher bist, sag es direkt."`
+- `"Erkläre, woher du diese Zahlen hast."`
 
 ## Die goldene Regel
 
