@@ -1,4 +1,4 @@
-# Medizinisches Prompting Schnellstart-Guide
+# Medical Prompting Quickstart-Guide
 
 Bei medizinischen Fragen führen direkte Anfragen an LLMs oft zu oberflächlichen oder ungenauen Antworten. Dieser Guide zeigt Ihnen, wie Sie durch strategisches Prompting verlässliche, gut durchdachte medizinische Informationen erhalten.
 
