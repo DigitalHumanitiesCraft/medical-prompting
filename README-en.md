@@ -13,13 +13,25 @@ LLMs work best when you guide them through logical steps rather than asking for 
 
 **✅ Do this instead:**
 
-1. **Build the foundation:** "I have a herniated disc at C5-C6. Which specific muscle groups are most affected by this condition?"
+1. **Build the foundation:**
+   ```
+   I have a herniated disc at C5-C6. Which specific muscle groups are most affected by this condition?
+   ```
 
-2. **Layer on context:** "For those muscle groups you mentioned, what types of exercises are generally recommended for strengthening and flexibility?"
+2. **Layer on context:**
+   ```
+   For those muscle groups you mentioned, what types of exercises are generally recommended for strengthening and flexibility?
+   ```
 
-3. **Get specific:** "Based on that information, create a beginner-friendly exercise routine for someone with a C5-C6 herniated disc."
+3. **Get specific:**
+   ```
+   Based on that information, create a beginner-friendly exercise routine for someone with a C5-C6 herniated disc.
+   ```
 
-4. **Force validation (LLM-poking):** "Review this exercise plan carefully. Is this really appropriate and safe? List any potential concerns or modifications needed, and explain your reasoning."
+4. **Force validation (LLM-poking):**
+   ```
+   Review this exercise plan again critically. Is this really appropriate and safe? List any potential concerns or modifications needed, and explain your reasoning.
+   ```
 
 ### Why This Works
 - Each step builds logical context
@@ -35,21 +47,32 @@ LLMs hate saying "I don't know" and will often provide confident-sounding but in
 
 **✅ Better approach:**
 
-1. **Ask with uncertainty built-in:** "What does current research say about antioxidant stability in brewed green tea over time? Be specific about what you know vs. what you're uncertain about."
+1. **Ask with uncertainty built-in:**
+   ```
+   What does current research say about antioxidant stability in brewed green tea over time? Be specific about what you know vs. what you're uncertain about.
+   ```
 
-2. **Force honesty:** "Be absolutely honest about any facts and numbers you don't know exactly. Use web research for claims you're unsure of, and if you can't find 100% proven facts, say so explicitly."
+2. **Force honesty:**
+   ```
+   Be absolutely honest about any facts and numbers you don't know exactly. Use web research for claims you're unsure of, and if you can't find 100% proven facts, say so explicitly.
+   ```
 
-3. **Validate sources:** "What specific studies or sources support these timeframes? If you're making estimates, clearly label them as such."
+3. **Validate sources:**
+   ```
+   What specific studies or sources support these timeframes? If you're making estimates, clearly label them as such.
+   ```
 
-## Quick Reference: Validation Phrases That Work
+## Quick Reference: Validation Phrases for Prompts
 
-Use these "LLM-poking" prompts to force better responses:
+Use these "LLM-poking" formulations in your prompts:
 
-- "Is this really accurate? Double-check your reasoning."
-- "What are you uncertain about in this response?"
-- "List potential risks or contraindications I should know about."
-- "Be completely honest about what current research does vs. doesn't support."
-- "Search for recent studies to verify these claims."
+- `"Is this really accurate? Double-check your reasoning."`
+- `"What are you uncertain about in this response?"`
+- `"List potential risks or contraindications I should know about."`
+- `"Be completely honest about what current research does vs. doesn't support."`
+- `"Search for recent studies to verify these claims."`
+- `"If you're not sure, say so directly."`
+- `"Explain where you got these numbers from."`
 
 ## The Golden Rule
 
@@ -62,6 +85,5 @@ Use these "LLM-poking" prompts to force better responses:
 - Generic advice that doesn't account for individual variation
 - Responses that don't mention consulting healthcare providers
 
-## Remember
-
-This guide helps you get better information from LLMs, but **always consult qualified healthcare professionals** for medical decisions. LLMs are research tools, not replacements for professional medical advice.
+---
+> For workshops on Generative AI and Prompt Engineering, feel free to contact us: office@dhcraft.org
