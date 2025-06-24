@@ -85,6 +85,6 @@ Verwenden Sie diese "LLM-Poking" Formulierungen in Ihren Prompts:
 - Allgemeine Ratschläge, die individuelle Unterschiede nicht berücksichtigen
 - Antworten, die nicht erwähnen, Gesundheitsfachkräfte zu konsultieren
 
-## Denken Sie daran
+---
 
-Dieser Guide hilft Ihnen, bessere Informationen von LLMs zu erhalten, aber **konsultieren Sie immer qualifizierte Gesundheitsfachkräfte** für medizinische Entscheidungen. LLMs sind Recherche-Tools, nicht Ersatz für professionelle medizinische Beratung.
+> Für Workshos zum Thema Generative KI und Prompt Engineering kontaktieren Sie uns gerne: office@dhcraft.org
